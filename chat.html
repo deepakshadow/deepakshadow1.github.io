@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Assignment-4 (whatsapp)</title>
+	<!--stylesheet-->
+	<link type="text/css" rel="stylesheet" href="assets/css/custom-chat.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container-fluid app">
+		<div class="row">
+			<div class="col-12">
+				<div class="row  col-row-inner col-row  col-side sticky-top"">
+					<div class="col-2">
+						<img src="assets/images/pendu.jpg" class="chat-image" alt="chat image" data-toggle="modal" data-target="#modalProfile">
+					</div>
+					<div class="col-5">
+						<div class="row col-row-inner-sub-3">
+							<div class="col-12">
+								<p class="float-left">siddharth</p>
+							</div>
+						</div>
+						<div class="row col-row-inner-sub-4">
+							<div class="col-12">
+								<small class="text-muted float-left">
+									last seen today at 02:40
+								</small>
+							</div>
+						</div>
+					</div>
+					<div class="col-2">
+						<i class="fa fa-search" style="font-size: 22px;"></i>
+					</div>
+					<div class="col-1">
+						<i class="fa fa-paperclip" style="font-size: 25px;"></i>
+					</div>
+					<div class="col-1">
+						<i class="fa fa-ellipsis-v" style="font-size: 25px;"></i>
+					</div>
+					<div class="col-1"></div>
+				</div>
+
+				<div class="row conversation-1">
+					<div class="col-12">
+						<div class="card-body w-50 sheet2 float-right">
+							<p class="text-center">Ok bye..</p>
+						</div>
+					</div>
+					<div class="col-12">		
+						<div class="card-body w-50 sheet1">
+							<p class="text-center">bye</p>
+						</div>
+					</div>
+					&nbsp;
+					<div class="col-12">
+						<p class="text-center sheet w-25 m-auto">
+							<small class="text-muted">today</small>
+						</p>
+					</div>
+					&nbsp;
+					<div class="col-12">
+						<div class="card-body w-50 sheet2 float-right">
+							<p class="text-center">hi...</p>
+						</div>
+					</div>
+					&nbsp;
+					<div class="col-12">
+						<div class="card-body w-50 sheet2 float-right">
+							<p class="text-center">Hello...</p>
+						</div>
+					</div>
+					<div class="col-12">		
+						<div class="card-body w-50 sheet1">
+							<p class="text-center">hey! whats up</p>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="card-body w-50 sheet2 float-right">
+							<p class="text-center">nothing dude</p>
+						</div>
+					</div>
+					<div class="col-12">		
+						<div class="card-body w-50 sheet1">
+							<p class="text-center">lets hangout then!</p>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="card-body w-50 sheet2 float-right">
+							<p class="text-center">ya sure...</p>
+						</div>
+					</div>
+					
+					&nbsp;
+				</div>
+
+				<div class="row footer-set footer fixed-bottom">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-12">
+								<div class="row">
+							<div class="col-2">
+								<i class="fa fa-smile-o float-right pt-2" style="font-size: 25px;"></i>
+							</div>
+							<div class="col-8">
+								<input type="text" class="form-control float-left" placeholder="type a message">
+							</div>
+							<div class="col-2">
+								<i class="fa fa-microphone float-left pt-2" style="font-size: 25px;"></i>
+							</div>
+						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="modalProfile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  		<div class="modal-dialog" role="document">
+    		<div class="modal-content text-center">
+     			<div class="modal-header bg-success">
+        			<h5 class="modal-title" id="exampleModalLabel">Profile</h5>
+        			<h4 class="m-auto">
+        				siddharth
+        			</h4>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          			<span aria-hidden="true">&times;</span>
+        			</button>
+      			</div>
+      		<div class="modal-body text-center">
+        		<img src="assets/images/pendu.jpg" class="img-fluid modalImage" alt="profile picture">
+      		</div>
+    		</div>
+  		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

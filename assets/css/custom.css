@@ -1,0 +1,172 @@
+:root {
+	font-size: 16px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.app {
+	margin: 0;
+	padding: 0;
+	display: block;
+	height: 100%;
+}
+
+.col-row {
+  background-color: #EAEAEA;
+  border: 0.05px solid #E0E0E0;
+}
+
+.col-row-inner {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+  border-bottom: 0.05px solid #E0E0E0;
+  border-right: 0.05px solid #E0E0E0;
+}
+
+.image {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+i {
+	float: right;
+	color: grey;
+	cursor: pointer;
+}
+
+.imagesearch {
+	width: 20px;
+	height: 20px;
+	float: right;
+	cursor: pointer;
+}
+
+.searchtext:focus{
+	border: none;
+	box-shadow: none;
+}
+
+.main-chat {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: calc(100% - 120px);
+}
+
+.col-row-inner-2 {
+	height: 82px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+  border-bottom: 0.05px solid #E0E0E0;
+  border-right: 0.05px solid #E0E0E0;
+  cursor: pointer;
+}
+ 
+.col-row-inner-2:hover {
+  background-color: #EAEAEA;
+}
+
+.col-row-inner-sub {
+	height: 38px;
+	display: flex;
+	align-items: center;
+}
+
+.col-row-inner-sub-2 {
+	height: 44px;
+	display: flex;
+	align-items: center;
+}
+
+.image-one {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.badge-unread {
+    box-shadow: 0 1px 5px 1px grey;
+}
+
+.chat-image {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.col-row-inner-sub-3 {
+	height: 20px;
+	display: flex;		
+}
+
+.col-row-inner-sub-4 {
+	height: 40px;
+	display: flex;	
+	align-items: center;
+}
+
+.conversation {
+  background: url("whatsapp.png") no-repeat fixed center;
+  background-size: cover;
+  border: 1px solid #f7f7f7;
+  height: calc(100% - 50px);
+
+}
+
+
+.sheet {
+  background-color: #C7ECEC;
+  display: block;
+  border-radius: 5px;
+  padding: 3px 7px;
+}
+
+.sheet1 {
+  background-color: white;
+  display: block;
+  border-radius: 0 30px 30px 30px;
+}
+
+.sheet2 {
+  background-color: #C2E5C4;
+  display: block;
+  border-radius: 30px 0 30px 30px;
+}
+
+.sheet:hover, .sheet1:hover, .sheet2:hover {
+  background-color: #EAEAEA;
+  cursor: pointer;
+}
+
+.footer-set {
+	align-items: center;
+    box-sizing: border-box;
+    display: block;
+    min-height: 50px; 
+    background-color: #EAEAEA;
+    border: 0.05px solid #E0E0E0;   
+}
+
+.col-side {
+  margin: 0 auto -60px;
+}
+
+
+/*modal*/
+.modalImage {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+   
+
